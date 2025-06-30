@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "Population": "1.4 billion",
+    "interestingFact": "India is the world's largest democracy."
+  },
+  {
+    "id": 2,
+    "countryName": "United States",
+    "capital": "Washington, D.C.",
+    "Population": "331 million",
+    "interestingFact": "The U.S. has the world's largest economy by nominal GDP."
+  },
+  {
+    "id": 3,
+    "countryName": "China",
+    "capital": "Beijing",
+    "Population": "1.4 billion",
+    "interestingFact": "The Great Wall of China is over 13,000 miles long."
+  },
+  {
+    "id": 4,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "Population": "214 million",
+    "interestingFact": "Brazil is home to the Amazon Rainforest, the world's largest tropical rainforest."
+  },
+  {
+    "id": 5,
+    "countryName": "Russia",
+    "capital": "Moscow",
+    "Population": "143 million",
+    "interestingFact": "Russia is the largest country by land area."
+  },
+  {
+    "id": 6,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "Population": "125 million",
+    "interestingFact": "Tokyo is the most populous metropolitan area in the world."
+  },
+  {
+    "id": 7,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "Population": "83 million",
+    "interestingFact": "Germany is known for its engineering and automobile industry."
+  },
+  {
+    "id": 8,
+    "countryName": "United Kingdom",
+    "capital": "London",
+    "Population": "68 million",
+    "interestingFact": "The UK has one of the oldest monarchies still in existence."
+  },
+  {
+    "id": 9,
+    "countryName": "France",
+    "capital": "Paris",
+    "Population": "67 million",
+    "interestingFact": "France is the most visited country in the world."
+  },
+  {
+    "id": 10,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "Population": "59 million",
+    "interestingFact": "Rome is home to the Vatican City, the smallest country in the world."
+  },
+  {
+    "id": 11,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "Population": "26 million",
+    "interestingFact": "Australia is home to more kangaroos than people."
+ 
+  }
+]
