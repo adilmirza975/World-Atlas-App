@@ -43,7 +43,7 @@ export const Footers = () => {
 
             <div className="copyright-text">
               <p>
-                copyright &cpoy; 2024, All Right Reserved 
+                copyright &copy; 2024, All Right Reserved 
               </p>
             </div>
 
