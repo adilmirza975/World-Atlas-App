@@ -35,6 +35,12 @@ const router = createBrowserRouter([
   {
     path:"contact",
     element:<Contact/>
+  },
+
+  // using ":" after a forward slash make your route dynamic ,which here we are using in CountryCard.jsx with the read more button functionality
+  {
+    path:"country/:id",
+    element:<Country/>
   }
 
 ]
