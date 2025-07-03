@@ -16,3 +16,13 @@ const api = axios.create({
 export const getCountryData = () => {
   return api.get("/all?fields=name,population,region,capital,flags")
 }
+
+
+
+// http get method for getting  individual data of country name - 
+
+export const getCountryIndData = (name) => {
+  return api.get(
+    `/name/${name}?fullText=true&feilds=name, population, region,subregion,tld, currencies,languages, border capital, flags, continents`
+  )
+}

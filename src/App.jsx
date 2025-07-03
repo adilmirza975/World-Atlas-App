@@ -11,6 +11,7 @@ import { About } from './pages/About'
 import { Country } from './pages/Country'
 import { Contact } from './pages/Contact'
 import { ErrorPage } from './pages/ErrorPage'
+import { CountryDetails } from './components/Layout/CountryDetails'
 
 
 const router = createBrowserRouter([
@@ -40,7 +41,7 @@ const router = createBrowserRouter([
   // using ":" after a forward slash make your route dynamic ,which here we are using in CountryCard.jsx with the read more button functionality
   {
     path:"country/:id",
-    element:<Country/>
+    element:<CountryDetails/>
   }
 
 ]
