@@ -1,6 +1,15 @@
 import { NavLink } from "react-router-dom";
+import { TiThMenuOutline } from "react-icons/ti";
+import { useState } from "react";
 
 export const Headers = () => {
+
+  // navbar responsive ui
+  const [show, setShow] = useState(false)
+  const handleButtonToggle = () => {
+    return setShow(!show)
+  }
+
   return (
     <header>
       <div className="container">
@@ -11,7 +20,8 @@ export const Headers = () => {
             </NavLink>
           </div>
 
-          <nav>
+          {/* agar show true hai to mobile wala version hai o dikhaiye warna desktop wala version dikhaiye */}
+          <nav className={show ? "menu-mobile": "menu-web"}>
             <ul>
               <li>
                 <NavLink to="/">Home</NavLink>
@@ -28,6 +38,9 @@ export const Headers = () => {
               
             </ul>
           </nav>
+          <div className="ham-menu">
+            <button onClick={handleButtonToggle}><TiThMenuOutline /></button>
+          </div>
         </div>
       </div>
     </header>

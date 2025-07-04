@@ -132,6 +132,8 @@ nav ul {
   }
 }
 
+
+/* desktop pe jo hamburger menu wo mughe nai dikhana hai */
 .ham-menu {
   display: none;
 }
@@ -150,10 +152,14 @@ nav ul {
   .menu-mobile {
     position: absolute;
     top: 10rem;
-    left: 0;
+    right: 0;
+    z-index: 99;
     background-color: #0d1212;
-    width: 100%;
-    box-shadow: rgba(255, 252, 252, 0.25) 0px 14px 28px;
+    width: 15%;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    
   }
 
   .menu-mobile ul {
@@ -392,9 +398,7 @@ ul {
   color: #878787;
 }
 
-/* --------------- 
-country Card 
------------------- */
+/* country Card  */
 
 .country-card {
   margin-top: 3.2rem;
@@ -511,9 +515,7 @@ country Card
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* ------------------ 
-contact us page 
---------------- */
+/* contact us page  */
 
 .section-contact {
   margin: 9.6rem auto;
@@ -556,9 +558,7 @@ contact us page
   }
 }
 
-/* ----------------
-contact us Page ends here 
---------------------- */
+/* contact us Page ends here  */
 
 @media screen and (max-width: 1320px) {
   .grid-four-cols {

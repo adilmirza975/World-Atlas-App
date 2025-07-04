@@ -40,14 +40,25 @@ export const Country = () => {
 
 
 
-  // getting the data of country searched
+  // filter logic -- getting the data of country searched
   const searchCountry = (country) => {
     if (search){
       return country.name.common.toLowerCase().includes(search.toLowerCase())
     }
+    return country
   }
+
+  // select option logic - 
+  const filterRegion = (country) => {
+    if (filter === "all") 
+      {return country};
+
+    return country.region === filter
+  }
+  
+
   // here is the main logic for search filter
-  countries.filter((country) => searchCountry(country))
+  const filterCountries = countries.filter((country) => searchCountry(country) && filterRegion(country))
 
 
 
@@ -62,10 +73,12 @@ export const Country = () => {
       setSearch={setSearch} 
       filter={search}
       setFilter={setfilter}
+      countries={countries}
+      setCountries={setCountries}
       />
 
       <ul className="grid grid-four-cols">
-        {countries.map((curCountry, index) => {
+        {filterCountries.map((curCountry, index) => {
           return <CountryCard country={curCountry} key={index} />;
         })}
       </ul>
