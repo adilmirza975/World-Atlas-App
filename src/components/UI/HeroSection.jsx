@@ -20,7 +20,7 @@ export const HeroSection = () => {
               </NavLink>
     
             </div>
-            <div className="hero-image">
+            <div className="hero-image animate-image">
               <img
                src="/images/atlas.jpeg" alt="World is beauty"
                className="banner-image" />
